@@ -1,0 +1,61 @@
+/* GENERALE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.contain{
+    padding: 0 15%;
+}
+
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+
+/* HEADER MENU */
+
+header{
+    background-color: blue;
+}
+
+.header-top{
+    padding: 20px 0;
+}
+
+.col{
+    float: left;
+}
+
+
+.w-25{
+    width: 25%;
+    border: 2px dotted red;
+}
+
+.w-50{
+    width: 50%;
+    border: 2px dotted red;
+
+
+}
+
+nav ul li{
+    display: inline;
+}
+
+a {
+    color: white;
+}
+
+
+/* HEADER JUMBOTRON */
