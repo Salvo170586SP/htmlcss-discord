@@ -219,4 +219,54 @@ height: 250px;
 }
 
 /* FOOTER */
+footer{
+    height: 550px;
+    background-color: #23272A;
+}
 
+.box-footer-top{
+    padding: 100px 0 ;
+}
+
+.col-ft{
+    width: 20%;
+}
+
+.box-footer-top ul li{
+list-style-type: none;
+}
+
+
+.box-footer-top h2{
+    color: #7289DA;
+    font-size: 31px;
+    margin-bottom: 30px;
+}
+
+.flag-ita{
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.lenguage{
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.lenguage::after{
+    content: '\02C5';
+}
+
+.social-link{
+    padding-top: 20px;
+}
+
+ .social-icon{
+    margin-right: 10px;
+}
+.social-icon img{
+    width: 30px;
+}
